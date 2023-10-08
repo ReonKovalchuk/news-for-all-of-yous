@@ -1,0 +1,16 @@
+@use 'vuetify/settings'
+with ($card-title-white-space: normal,
+);
+
+.v-card-subtitle {
+  flex-wrap: wrap;
+}
+
+.v-list-item-title {
+  white-space: normal
+}
+
+.v-infinite-scroll--vertical {
+  overflow-y: visible !important;
+  overflow-x: visible !important;
+}
